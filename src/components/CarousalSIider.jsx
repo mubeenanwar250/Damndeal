@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { Row, Col, Button } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import modernchair from "../assets/svgs/bg1.svg";
 import caroselimage2 from "../assets/svgs/bg.svg";
@@ -51,7 +48,6 @@ const Slider = () => {
 const StyledRow = styled(Row)`
   margin: 50px 0;
 `;
-
 
 const StyledCol = styled(Col)`
   max-width: ${content_width};

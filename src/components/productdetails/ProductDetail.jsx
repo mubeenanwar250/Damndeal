@@ -230,6 +230,9 @@ const ProductDetail = () => {
           </Select>
         </MoreBox>
         <FaqsScreen/>
+        {/* test  */}
+
+        {/* test */}
       </Container>
     </ProductDetailWrapper>
   );
